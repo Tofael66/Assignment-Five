@@ -42,9 +42,16 @@ else{
 Aid for Injured in the Quota Movement </H3>
   
     `
-  
     
-  document.getElementById('history-bdt').appendChild(div)
+  document.getElementById('history-bdt').appendChild(div);
+
+  
+document.getElementById('history-bdt').appendChild(div);
+
+const p =document.createElement('p');
+ const mydate =new Date();
+ p.innerText = mydate ;
+ document.getElementById('history-bdt').appendChild(p);
 
 }
 
@@ -107,7 +114,15 @@ Donate for Flood Relief in Feni,Bangladesh </H3>
    `
  
    
- document.getElementById('history-bdt').appendChild(div)
+ document.getElementById('history-bdt').appendChild(div);
+
+ 
+document.getElementById('history-bdt').appendChild(div);
+
+const p =document.createElement('p');
+ const mydate =new Date();
+ p.innerText = mydate ;
+ document.getElementById('history-bdt').appendChild(p);
  
 
 }

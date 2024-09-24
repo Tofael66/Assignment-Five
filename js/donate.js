@@ -57,11 +57,17 @@ document.getElementById('donate-btn').addEventListener('click' , function(event)
   div.innerHTML = `
   <H3 class = 'bg-slate-50 border border-gray-500 py-5 px-5 mt-3 mb-3 rounded-md text-xl font-semibold'> ${inputAddBdtParsfolt} Taka is Donate for Food at Naokhaily, Bangladesh </H3>
 
+
+
   `
 
-
-  
 document.getElementById('history-bdt').appendChild(div);
+
+const p =document.createElement('p');
+ const mydate =new Date();
+ p.innerText = mydate ;
+ document.getElementById('history-bdt').appendChild(p);
+
 
 
 

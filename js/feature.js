@@ -17,5 +17,5 @@ document.getElementById('show-histore-btn').addEventListener('click', function()
 })
 
 
-// active  button
+// date and time
 
