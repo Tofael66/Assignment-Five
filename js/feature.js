@@ -1,4 +1,4 @@
-console.log('ami feature')
+
 
 
 
@@ -15,3 +15,7 @@ document.getElementById('show-histore-btn').addEventListener('click', function()
     console.log('ami history');
     showHistoryOrDonated('history-bdt');
 })
+
+
+// active  button
+
