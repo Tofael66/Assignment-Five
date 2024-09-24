@@ -13,6 +13,9 @@ document.getElementById('donate-btn').addEventListener('click' , function(event)
         alert('negative number not allow')
      }
 
+     
+
+
      else if(isNaN(inputAddBdtParsfolt)){
 
       alert('wrong Input')
@@ -21,6 +24,9 @@ document.getElementById('donate-btn').addEventListener('click' , function(event)
      else {
 
          alert('your BDT Added SuscessFull')
+       
+
+
         const akhaneAddhobeBdt = document.getElementById('Akhane-addhobe-bdt').innerText ;
     const akhaneAddhobeBdtParsTF = parseFloat(akhaneAddhobeBdt);
     console.log('ami innterText',akhaneAddhobeBdtParsTF);
