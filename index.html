@@ -11,22 +11,25 @@
 </head>
 <body>
 
+ 
+
    <!-- navber sectioon start -->
     <header class=" relative">
 <div class=" fixed top-0 left-0 right-0">
   
-  <div class="  bg-[#F9F7F3]">
+  <div class="  bg-[#F9F7F3] ">
     <div class="  max-w-7xl mx-auto   ">
-        <div class="sm:flex items-center text-center">
-          <div class=" ">
-              <a class="btn  text-xl bg-green-300 ">Blog</a>
+        <div class="sm:flex items-center text-center py-5 ">
+          <div id="blog-html" class=" ">
+              <a href="/index.html"  class="btn  text-xl bg-green-300 " >Blog</a>
             </div>
+            
             <div class="sm:flex-grow text-center">
-              <ul class="menu menu-horizontal px-1">
+              <ul class=" menu-horizontal px-1">
                 <li>
-                 <div class="">
+                 <div class="flex items-center space-x-5">
                     <img class="text-xl" src="images/logo.png" alt="">
-                    <a>Donate Bangladesh</a>
+                    <a class="text-2xl font-semibold">Donate Bangladesh</a>
                  </div>
                 </li>
               </ul> 
@@ -45,8 +48,9 @@
 
 <section class=" text-center max-w-7xl mx-auto px-4 mt-24">
     <div class="space-x-3">
-      <button class="btn btn-outline btn-success">Donation</button>
-      <button class="btn btn-outline btn-success">History</button>
+      <button id="show-donate-btn" class="btn btn-outline btn-success">Donation</button>
+
+      <button id="show-histore-btn" class="btn btn-outline btn-success">History</button>
   </div>
   </section>
   
@@ -57,8 +61,8 @@
 -->
 
 <!-- banner sectipon st -->
-    <main>     
-<section class="mt-96 sm:mt-80  max-w-7xl mx-auto px-2 md:px-6 lg:px-6 xl:px-6  md:py-5   ">
+    <main id="show-first-donateForm" >     
+<section class="  mt-96 sm:mt-80  max-w-7xl mx-auto px-2 md:px-6 lg:px-6 xl:px-6  md:py-5   ">
 
 
   
@@ -103,12 +107,12 @@
   
   </section>
   </section>
-    </main>
 
-    <!-- banner sectipon end -->
+  <!-- banner sectipon end -->
 
     <!-- banner sectipon start second -->
-    <main>     
+    <main class="">    
+
       <section class="mt-24  max-w-7xl mx-auto px-2 md:px-6 lg:px-6 xl:px-6  md:py-5   ">
       
       
@@ -116,7 +120,7 @@
         <section class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 md:gap-2 lg:gap-2 xl:gap-2  2xl:gap-2 ">
         <!-- image div -->
          <div class="">
-          <img src="images/noakhali.png" alt="">
+          <img src="images/quota-protest.png" alt="">
         </div>
         
          <!-- text div -->
@@ -128,24 +132,25 @@
           <button class="btn">
             <img src="images/coin.png" alt="">
           
-            0 BDT
+            <div id="akhane-bdt-addHobe">1000</div>
+             <span>BDT</span>
           </button>
          </div>
         
-            <h2 class="text-3xl font-bold my-3">Donate for Flood at Noakhali, Bangladesh</h2>
+            <h2 class="text-3xl font-bold my-3">Aid for Injured in the Quota Movement</h2>
         
-            <p class="text-xl md:text-xl lg:text-xl "> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+            <p class="text-xl md:text-xl lg:text-xl "> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
         
         
             <div class="my-3">
-              <input class="w-full p-2 border border-gray-300 "
-               type="text" placeholder="Write Donation Amount" >
+              <input  id="input-bdt-get" class="w-full p-2 border border-gray-300 "
+               type="text" placeholder="Write Donation Amount" autocomplete="off">
                
-          <!-- <button class=" w-full p-5 border border-gray-300  placeholder:'Write Donation Amount'  "></button>   -->
+        
             </div>
-        <div class="my-4">
+        <div  class="my-4">
           
-          <button class=" bg-green-500 btn-block p-2">Donate Now</button>
+          <button id="donated-addbdt-btn" class=" bg-green-500 btn-block p-2">Donate Now</button>
         </div>
         </div>
           
@@ -157,17 +162,77 @@
 
         <!-- banner sectiponend second -->
 
+        <!-- banner sectiponend third  st-->
+
+ <main>     
+      <section class="mt-24  max-w-7xl mx-auto px-2 md:px-6 lg:px-6 xl:px-6  md:py-5   ">
+      
+      
+        
+        <section class=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 md:gap-2 lg:gap-2 xl:gap-2  2xl:gap-2 ">
+        <!-- image div -->
+         <div class="">
+          <img src="images/feni.png" alt="">
+        </div>
+        
+         <!-- text div -->
+          
+         <div class="">
+        
+        
+         <div class="mb-3">
+          <button class="btn">
+            <img src="images/coin.png" alt="">
+          
+            <div id="upbdt-third">0</div>
+            <span>BDT</span>
+          </button>
+         </div>
+        
+            <h2 class="text-3xl font-bold my-3">Donate for Flood Relief in Feni,Bangladesh</h2>
+        
+            <p class="text-xl md:text-xl lg:text-xl "> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+        
+        
+            <div class="my-3">
+              <input id="third-input-bdt" class="w-full p-2 border border-gray-300 "
+               type="text" placeholder="Write Donation Amount" >
+               
+          <!-- <button class=" w-full p-5 border border-gray-300  placeholder:'Write Donation Amount'  "></button>   -->
+            </div>
+        <div class="my-4">
+          
+          <button id="donate-thirt-btn" class=" bg-green-500 btn-block p-2">Donate Now</button>
+        </div>
+        </div>
+          
+         </div>
+        
+        </section>
+        </section>
+          </main>
+        <!-- banner sectiponend tird end-->
+    
+
+
+    </main>
+
+  
    <!-- histor section st-->
 
-   <div id="history-bdt" class=" mt-24 max-w-7xl mx-auto ">
+   <div id="history-bdt" class=" hidden mt-80 p-2 max-w-7xl mx-auto ">
     <h4 class="text-bold text-2xl"> History BDT</h4>
    </div>
    <!-- histor section  end-->
 
          
 
-        <script src="js/donate.js"></script>
+        <script src="js/donate.js"></script> -
         <script src="js/feature.js"></script>
+        <script src="js/utilities.js"></script>
+        <script src="js/index.html"></script>
+    
+        <script src="js/second.js"></script>
     
 </body>
 </html>
